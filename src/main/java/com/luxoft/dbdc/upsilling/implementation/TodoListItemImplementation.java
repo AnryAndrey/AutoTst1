@@ -30,8 +30,8 @@ public class TodoListItemImplementation implements Togglable {
     public void toggle(){
     }
 
-    public boolean isToggled(){
+
+    public boolean isToggled() {
         return toggled;
     }
-
 }
