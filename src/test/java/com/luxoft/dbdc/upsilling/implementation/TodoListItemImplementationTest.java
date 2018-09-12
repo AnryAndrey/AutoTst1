@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class TodoListItemImplementationTest {
 
     protected TodoListItemImplementation todoItem;
+    protected String title;
 
     @BeforeAll
     public static void setUpGlobal(){
@@ -14,9 +15,20 @@ class TodoListItemImplementationTest {
 
     @BeforeEach
     public void setUp(){
-        //TodoListItemImplementation todoItem = new TodoListItemImplementation("Todo list Item to test");
-        String title = "Todo list Item to test";
+        title = "Todo list Item to test";
         todoItem = new TodoListItemImplementation(title);
+    }
+
+    @Test
+    public void itemHaveAssignedTitleAfterCreation(){
+        Assertions.assertTrue(title.equalsIgnoreCase(todoItem.getTitle()));
+    }
+
+    @Test
+    public void itemHaveNewITitleAfterAssigningNewTitle(){
+        String newTitle = "New Title for Todo";
+        todoItem.setTitle(newTitle);
+        Assertions.assertTrue(() -> newTitle.equalsIgnoreCase(todoItem.getTitle()));
     }
 
     @Test
