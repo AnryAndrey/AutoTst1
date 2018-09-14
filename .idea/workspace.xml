@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9927e22a-59c8-4289-ad8e-84954164786a" name="Default Changelist" comment="5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Obtainable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,14 +22,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
-          <entry key="xml" value="1" />
+          <entry key="java" value="20" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
-          <entry key="XML" value="1" />
+          <entry key="JAVA" value="20" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,72 +49,48 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Togglable.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="25">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Obtainable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/logging/LogManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1228" column="7" selection-start-line="1228" selection-start-column="4" selection-end-line="1228" selection-end-column="7" />
+            <state relative-caret-position="782">
+              <caret line="46" column="63" lean-forward="true" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
               <folding>
-                <element signature="e#52247#52248#0" expanded="true" />
-                <element signature="e#52303#52304#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1675#1676#0" expanded="true" />
-                <element signature="e#1742#1743#0" expanded="true" />
-                <element signature="e#1786#1787#0" expanded="true" />
-                <element signature="e#1850#1851#0" expanded="true" />
-                <element signature="e#1877#1878#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -141,51 +107,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Obtainable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="204">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Togglable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="60" />
-              <folding>
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1300#1301#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1696#1697#0" expanded="true" />
-                <element signature="e#1743#1744#0" expanded="true" />
-                <element signature="e#1821#1822#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -217,9 +161,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Obtainable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" />
       </list>
     </option>
   </component>
@@ -230,7 +174,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="100" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -326,16 +270,6 @@
               <item name="upsilling" type="462c0819:PsiDirectoryNode" />
               <item name="implementation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dbdcupskilling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dbdcupskilling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="upsilling" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
-              <item name="TodoListItemImplementationTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -343,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536908676994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536912537552" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="settings.editor.selected.configurable" value="diff.base" />
@@ -477,15 +411,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoListItemImplementationTest_itemHaveAssignedTitleAfterCreation - 2018.09.12 at 12h 27m 08s.xml">
-      <configuration name="TodoListItemImplementationTest.itemHaveAssignedTitleAfterCreation" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplementationTest - 2018.09.12 at 12h 27m 36s.xml">
-      <configuration name="TodoListItemImplementationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplementationTest - 2018.09.12 at 12h 27m 46s.xml">
-      <configuration name="TodoListItemImplementationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TodoListItemImplementationTest - 2018.09.14 at 09h 15m 22s.xml">
       <configuration name="TodoListItemImplementationTest" configurationId="JUnit" />
     </history-entry>
@@ -507,17 +432,25 @@
     <history-entry file="TodoListItemImplTest - 2018.09.14 at 10h 02m 46s.xml">
       <configuration name="TodoListItemImplTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.14 at 10h 04m 27s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.14 at 10h 04m 41s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoListItemImplTest - 2018.09.14 at 11h 09m 02s.xml">
+      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.42664874" />
@@ -525,7 +458,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,13 +509,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.luxoft.dbdc.upsilling.SimpleTest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -605,28 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1742#1743#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/logging/LogManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -638,20 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -659,17 +549,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Togglable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="25">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -687,25 +577,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="60" />
+        <state relative-caret-position="204">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1743#1744#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="782">
+          <caret line="46" column="63" lean-forward="true" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
@@ -713,6 +598,30 @@
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#690#691#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/Togglable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

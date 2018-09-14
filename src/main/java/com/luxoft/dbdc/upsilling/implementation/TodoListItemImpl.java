@@ -33,11 +33,10 @@ public class TodoListItemImpl implements TodoListItem {
         this.toggled = false;
     }
 
-    @Override
-    public void toggle() {
-        if (toggled) {toggled = false; return;}
-        toggled = true;
-
+          @Override
+        public void toggle() {
+            if (toggled) {toggled = false; return;}
+            toggled = true;
     }
 
 }
