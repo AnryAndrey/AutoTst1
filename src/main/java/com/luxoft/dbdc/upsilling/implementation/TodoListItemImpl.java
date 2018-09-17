@@ -12,7 +12,7 @@ public class TodoListItemImpl implements TodoListItem {
 
     private final String title;
     private boolean toggled;
-//    final static Logger logger = LogManager.getLogger(TodoListItemImpl.class);
+    //final static Logger logger = LogManager.getLogger(TodoListItemImpl.class);
 
     public TodoListItemImpl setTitle(String title) {
         if (title.isEmpty()) throw new IllegalArgumentException("New title cannot be empty");
