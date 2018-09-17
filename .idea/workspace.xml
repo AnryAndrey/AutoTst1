@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9927e22a-59c8-4289-ad8e-84954164786a" name="Default Changelist" comment="5">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/junit-platform.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +39,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1233" />
+          <entry key="java" value="1362" />
           <entry key="properties" value="68" />
           <entry key="txt" value="1" />
           <entry key="xml" value="13" />
@@ -50,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1233" />
+          <entry key="JAVA" value="1362" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="68" />
           <entry key="XML" value="13" />
@@ -119,8 +116,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
@@ -332,7 +329,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537174408527" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537176273627" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -374,6 +371,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upskilling.selenium" />
       <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upskilling.selenium.SampleSeleniumTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleSeleniumTest.googleComSimpleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbdcupskilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.dbdc.upskilling.selenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upskilling.selenium" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upskilling.selenium.SampleSeleniumTest" />
+      <option name="METHOD_NAME" value="googleComSimpleTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -422,36 +435,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListItemImplementationTest.itemHaveAssignedTitleAfterCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbdcupskilling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luxoft.dbdc.upsilling.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upsilling.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upsilling.implementation.TodoListItemImplementationTest" />
-      <option name="METHOD_NAME" value="itemHaveAssignedTitleAfterCreation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.TodoListItemImplementationTest" />
-      <item itemvalue="JUnit.TodoListItemImplementationTest.itemHaveAssignedTitleAfterCreation" />
       <item itemvalue="JUnit.TodoListItemImplTest" />
       <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
       <item itemvalue="JUnit.SampleSeleniumTest" />
+      <item itemvalue="JUnit.SampleSeleniumTest.googleComSimpleTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SampleSeleniumTest" />
+        <item itemvalue="JUnit.SampleSeleniumTest.googleComSimpleTest" />
         <item itemvalue="JUnit.TodoListItemImplTest" />
         <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
         <item itemvalue="JUnit.TodoListItemImplementationTest" />
-        <item itemvalue="JUnit.TodoListItemImplementationTest.itemHaveAssignedTitleAfterCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -469,27 +466,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 21m 40s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 33m 57s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 34m 58s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 35m 36s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 35m 54s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 09h 37m 03s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TodoListItemImplTest - 2018.09.17 at 10h 50m 02s.xml">
-      <configuration name="TodoListItemImplTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TodoListItemImplTest - 2018.09.17 at 11h 12m 03s.xml">
       <configuration name="TodoListItemImplTest" configurationId="JUnit" />
     </history-entry>
@@ -498,6 +474,27 @@
     </history-entry>
     <history-entry file="TodoListItemImplTest - 2018.09.17 at 11h 14m 14s.xml">
       <configuration name="TodoListItemImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 11h 53m 34s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 00m 43s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 01m 13s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 12m 37s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest_googleComSimpleTest - 2018.09.17 at 12h 21m 37s.xml">
+      <configuration name="SampleSeleniumTest.googleComSimpleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 23m 08s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 23m 51s.xml">
+      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -509,15 +506,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" weight="0.42664874" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24899058" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36608344" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -695,8 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />

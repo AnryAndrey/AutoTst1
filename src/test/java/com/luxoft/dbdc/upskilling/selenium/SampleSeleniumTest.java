@@ -4,7 +4,10 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -19,10 +22,14 @@ public class SampleSeleniumTest {
     }
 
     @Test
-    public void googleComSimpleTest(){
+    public void googleComSimpleTest() throws InterruptedException {
         String address = "http://google.com";
+        String queryString = "selenium";
         webDriver.get(address);
-        Assertions.assertTrue( ()-> webDriver.getTitle().equalsIgnoreCase("Google") );
+        WebElement searchField = webDriver.findElement(By.name("q"));
+        searchField.sendKeys("selenium" + Keys.ENTER);
+        Thread.sleep(3000);
+        Assertions.assertTrue( ()-> webDriver.getTitle().contains(queryString) );
     }
 
     @AfterAll
