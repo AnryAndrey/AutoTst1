@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9927e22a-59c8-4289-ad8e-84954164786a" name="Default Changelist" comment="5">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EtsyBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,7 +26,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="22" />
+          <entry key="java" value="24" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
@@ -31,25 +34,25 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="22" />
+          <entry key="JAVA" value="24" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1419" />
+          <entry key="java" value="2319" />
           <entry key="properties" value="68" />
           <entry key="txt" value="1" />
-          <entry key="xml" value="13" />
+          <entry key="xml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1419" />
+          <entry key="JAVA" value="2319" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="68" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="16" />
         </counts>
       </usages-collector>
     </session>
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="13" selection-start-line="41" selection-end-line="42" />
+            <state relative-caret-position="321">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -112,15 +115,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="42">
+              <caret line="36" column="72" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#736#737#0" expanded="true" />
                 <element signature="e#760#761#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EtsyBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,24 +163,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/interfaces/TodoListItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -195,8 +206,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImplementationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/luxoft/dbdc/upsilling/implementation/TodoListItemImpl.java" />
         <option value="$PROJECT_DIR$/src/test/resources/junit-platform.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EtsyBaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EtsyBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCard.java" />
       </list>
     </option>
   </component>
@@ -294,17 +309,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dbdc" type="462c0819:PsiDirectoryNode" />
-              <item name="upsilling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dbdcupskilling" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dbdcupskilling" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dbdc" type="462c0819:PsiDirectoryNode" />
-              <item name="upsilling" type="462c0819:PsiDirectoryNode" />
-              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dbdcupskilling" type="b2602c69:ProjectViewProjectNode" />
@@ -314,6 +319,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="dbdc" type="462c0819:PsiDirectoryNode" />
               <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="etsy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dbdcupskilling" type="b2602c69:ProjectViewProjectNode" />
@@ -329,7 +335,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537344631467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537348881271" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -360,7 +366,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SampleSeleniumTest">
+  <component name="RunManager" selected="JUnit.EsyComEmptyCard">
+    <configuration name="EsyComEmptyCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbdcupskilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.dbdc.upskilling.selenium.etsy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upskilling.selenium.etsy" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upskilling.selenium.etsy.EsyComEmptyCard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsyComEmptyCard.shouldHaveEmptyShoppingCartOnFirstVisit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dbdcupskilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luxoft.dbdc.upskilling.selenium.etsy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upskilling.selenium.etsy" />
+      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upskilling.selenium.etsy.EsyComEmptyCard" />
+      <option name="METHOD_NAME" value="shouldHaveEmptyShoppingCartOnFirstVisit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SampleSeleniumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dbdcupskilling" />
       <extension name="coverage">
@@ -405,50 +441,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListItemImplTest.toogle_an_item" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbdcupskilling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luxoft.dbdc.upsilling.implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upsilling.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upsilling.implementation.TodoListItemImplTest" />
-      <option name="METHOD_NAME" value="toogle_an_item" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoListItemImplementationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dbdcupskilling" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.luxoft.dbdc.upsilling.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.luxoft.dbdc.upsilling.implementation" />
-      <option name="MAIN_CLASS_NAME" value="com.luxoft.dbdc.upsilling.implementation.TodoListItemImplementationTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TodoListItemImplementationTest" />
       <item itemvalue="JUnit.TodoListItemImplTest" />
-      <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
       <item itemvalue="JUnit.SampleSeleniumTest" />
       <item itemvalue="JUnit.SampleSeleniumTest.googleComSimpleTest" />
+      <item itemvalue="JUnit.EsyComEmptyCard" />
+      <item itemvalue="JUnit.EsyComEmptyCard.shouldHaveEmptyShoppingCartOnFirstVisit" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EsyComEmptyCard" />
+        <item itemvalue="JUnit.EsyComEmptyCard.shouldHaveEmptyShoppingCartOnFirstVisit" />
         <item itemvalue="JUnit.SampleSeleniumTest" />
         <item itemvalue="JUnit.SampleSeleniumTest.googleComSimpleTest" />
         <item itemvalue="JUnit.TodoListItemImplTest" />
-        <item itemvalue="JUnit.TodoListItemImplTest.toogle_an_item" />
-        <item itemvalue="JUnit.TodoListItemImplementationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -466,35 +472,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 11h 53m 34s.xml">
+    <history-entry file="SampleSeleniumTest - 2018.09.19 at 11h 10m 46s.xml">
       <configuration name="SampleSeleniumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 00m 43s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 22m 25s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 01m 13s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 24m 06s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 12m 37s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 25m 24s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest_googleComSimpleTest - 2018.09.17 at 12h 21m 37s.xml">
-      <configuration name="SampleSeleniumTest.googleComSimpleTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 31m 54s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 23m 08s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 42m 47s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.17 at 12h 23m 51s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 46m 34s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.19 at 09h 10m 17s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 11h 55m 55s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.19 at 10h 52m 43s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 12h 01m 04s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleSeleniumTest - 2018.09.19 at 10h 56m 32s.xml">
-      <configuration name="SampleSeleniumTest" configurationId="JUnit" />
+    <history-entry file="EsyComEmptyCard - 2018.09.19 at 12h 17m 10s.xml">
+      <configuration name="EsyComEmptyCard" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -563,18 +569,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5" />
     <option name="LAST_COMMIT_MESSAGE" value="5" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.luxoft.dbdc.upsilling.SimpleTest.xml">
@@ -685,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="13" selection-start-line="41" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upsilling/SimpleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -704,12 +691,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/SampleSeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="42">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
             <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EtsyBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
