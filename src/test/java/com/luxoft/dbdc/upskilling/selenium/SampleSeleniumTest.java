@@ -22,7 +22,7 @@ public class SampleSeleniumTest {
     }
 
     @Test
-    public void googleComSimpleTest() throws InterruptedException {
+    public void googleComSimpleTestByName() throws InterruptedException {
         String address = "http://google.com";
         String queryString = "selenium";
         webDriver.get(address);
@@ -34,7 +34,7 @@ public class SampleSeleniumTest {
 
 
     @Test
-    public void googleComSimpleTest2() throws InterruptedException {
+    public void googleComSimpleTestByXpath() throws InterruptedException {
         String address = "http://google.com";
         String queryString = "selenium";
         webDriver.get(address);
@@ -45,6 +45,9 @@ public class SampleSeleniumTest {
         Thread.sleep(3000);
         Assertions.assertTrue( ()-> webDriver.getTitle().contains(queryString) );
     }
+
+
+
 
     @AfterAll
     public static void tearDown(){
