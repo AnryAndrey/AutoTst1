@@ -32,6 +32,20 @@ public class SampleSeleniumTest {
         Assertions.assertTrue( ()-> webDriver.getTitle().contains(queryString) );
     }
 
+
+    @Test
+    public void googleComSimpleTest2() throws InterruptedException {
+        String address = "http://google.com";
+        String queryString = "selenium";
+        webDriver.get(address);
+        WebElement searchField = webDriver.findElement(By.xpath("//input[@name='q']"));
+        searchField.clear();
+        searchField.sendKeys(queryString);
+        searchField.submit();
+        Thread.sleep(3000);
+        Assertions.assertTrue( ()-> webDriver.getTitle().contains(queryString) );
+    }
+
     @AfterAll
     public static void tearDown(){
         webDriver.quit();
