@@ -39,7 +39,7 @@ public class EsyComEmptyCard extends EtsyBase {
         Thread.sleep(5000);
         boolean shoppingCartHasNoItem = webDriver.findElement(By.cssSelector(EMPTY_CARD_HEADER)).isDisplayed();
         assertThat(shoppingCartHasNoItem, is(true));
-        
+
     }
 
 }
