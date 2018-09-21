@@ -20,6 +20,7 @@ public class EsyComEmptyCard extends EtsyBase {
     @Test
     public void shouldHaveEmptyShoppingCartOnFirstVisit() throws InterruptedException {
         String mainPage = "http://www.etsy.com";
+
         //Go to Etsy.com page
         webDriver.get(mainPage);
 
@@ -28,6 +29,7 @@ public class EsyComEmptyCard extends EtsyBase {
                 webDriver.findElement(By.cssSelector(PRIVACY_POLICY_FORM))
                 .findElement(By.cssSelector(PRIVACY_POLICY_ACCEPT_BUTTON));
         acceptPrivacyRulesButton.click();
+
         //Go to cart page
         //webDriver.findElement(By.cssSelector(SHOPING_CARD_ICON)).click();
         new WebDriverWait(webDriver, 20).until(
