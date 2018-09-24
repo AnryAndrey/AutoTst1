@@ -23,6 +23,7 @@ public class EbayComPageObject extends BasePageObjects{
 
     public EbayComPageObject(WebDriver webDriver){
         super(webDriver);
+        PageFactory.initElements(webDriver, this);
     }
     public EbayComPageObject goToMainPage() {
         webDriver.get(mainPage);
