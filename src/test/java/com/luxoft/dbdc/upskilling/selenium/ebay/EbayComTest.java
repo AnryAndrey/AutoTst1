@@ -25,6 +25,7 @@ public class EbayComTest {
     public   void setUp(){
         ebayPage = new EbayComPageObject(webDriver);
     }
+
     @Test
     public void shouldShowBestPriceWhenSelectAuctionAfterSearch(){
         // EbayComPageObject ebayPage = new EbayComPageObject(webDriver);
@@ -34,6 +35,18 @@ public class EbayComTest {
         assertThat(ebayPage.getAuctionBestPrices(),
                 containsInAnyOrder("Under $8.00", "$8.00 - $18.00", "Over $18.00")
         ) ;
+    }
+
+
+    @Test
+    public void shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory()  throws InterruptedException{
+        ebayPage.goToMainPage()
+                .selectItemsInAdditionalCategoryForCategory("iPhone","Electronics");
+        Thread.sleep(3000);
+            //    .selectActionItems();
+//        assertThat(ebayPage.getAuctionBestPrices(),
+//                containsInAnyOrder("Under $8.00", "$8.00 - $18.00", "Over $18.00")
+//      );
     }
 
     //  @AfterEach
