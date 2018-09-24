@@ -10,6 +10,8 @@ public class EbayTest extends EbayBase{
 
     @Test
     public void shouldBeEmptyCardOnFirstVisit() throws InterruptedException{
+
+        // open ebay page
         String ebayPage = "http://www.ebay.com";
         webDriver.get(ebayPage);
         Thread.sleep(1000);
@@ -20,6 +22,7 @@ public class EbayTest extends EbayBase{
 
         //check that cart is empty
         boolean ebayCartIsEmpty = webDriver.findElement(By.cssSelector("div.empty-cart")).isDisplayed();
+
         assertThat(ebayCartIsEmpty, is(true));
     }
 
