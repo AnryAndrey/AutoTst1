@@ -1,9 +1,6 @@
 package com.luxoft.dbdc.upskilling.selenium.ebay;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.luxoft.dbdc.upskilling.selenium.ebay.pageobjects.EbayComPageObject;
@@ -42,7 +39,8 @@ public class EbayComTest {
     public void shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory()  throws InterruptedException{
         ebayPage.goToMainPage()
                 .selectItemsInAdditionalCategoryForCategory("iPhone","Electronics");
-        Thread.sleep(3000);
+        Assertions.assertTrue(ebayPage.getPageTitle().contains("iPhone"),
+                String.format("Pagetitle contains doesn't %s subcategory name","iPhone"));
 
     }
 

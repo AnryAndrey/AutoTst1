@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9927e22a-59c8-4289-ad8e-84954164786a" name="Default Changelist" comment="5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/BasePageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/BasePageObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/BasePageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/BasePageObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4815" />
+          <entry key="java" value="4957" />
           <entry key="properties" value="68" />
           <entry key="txt" value="1" />
           <entry key="xml" value="16" />
@@ -54,7 +51,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4815" />
+          <entry key="JAVA" value="4957" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="68" />
           <entry key="XML" value="16" />
@@ -90,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="306">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#633#634#0" expanded="true" />
@@ -145,12 +142,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+            <state relative-caret-position="139">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1465#1466#0" expanded="true" />
                 <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1909#1910#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -215,9 +214,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/etsy/EsyComEmptyCard.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/BasePageObjects.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java" />
       </list>
     </option>
   </component>
@@ -357,7 +356,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537779418966" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537780343152" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -388,7 +387,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory">
+  <component name="RunManager" selected="JUnit.EbayComTest">
     <configuration name="EbayComTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dbdcupskilling" />
       <extension name="coverage">
@@ -472,8 +471,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" />
         <item itemvalue="JUnit.EbayComTest" />
+        <item itemvalue="JUnit.EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" />
         <item itemvalue="JUnit.EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearch" />
         <item itemvalue="JUnit.EsyComEmptyCard" />
         <item itemvalue="JUnit.EbayTest" />
@@ -494,12 +493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 11h 32m 03s.xml">
-      <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 11h 33m 58s.xml">
-      <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 11h 37m 31s.xml">
       <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
     </history-entry>
@@ -522,6 +515,12 @@
       <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 11h 56m 34s.xml">
+      <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 11h 57m 15s.xml">
+      <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EbayComTest_shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory - 2018.09.24 at 12h 06m 01s.xml">
       <configuration name="EbayComTest.shouldShowBestPriceWhenSelectAuctionAfterSearchAfterSelectingItemsInAdditionalCategory" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -796,18 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1537#1538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/screenshot2018-09-24 11-53-59.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -823,10 +810,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/pageobjects/EbayComPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1909#1910#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/luxoft/dbdc/upskilling/selenium/ebay/EbayComTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="306">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#633#634#0" expanded="true" />

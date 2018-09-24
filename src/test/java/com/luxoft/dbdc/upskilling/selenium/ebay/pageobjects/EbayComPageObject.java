@@ -57,6 +57,10 @@ public class EbayComPageObject extends BasePageObjects {
         return this;
     }
 
+    public String getPageTitle(){
+        return webDriver.getTitle();
+    }
+
     private void selectActionItemsOption() {
         // String auctionItemButton = String.format("a[title='$s']","Auction");
         findElementWithWait(By.cssSelector(AUCTION_BUTTON)).click();
